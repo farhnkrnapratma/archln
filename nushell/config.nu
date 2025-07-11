@@ -6,6 +6,7 @@ alias d = rm -rf
 alias e = nvim
 alias x = exit
 alias l = ls -la
+alias sudo = sudo-rs
 alias u = paru -Syu
 
 fastfetch
