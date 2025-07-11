@@ -1,36 +1,15 @@
 [
     (
-        name: "cosmic-office",
-        icon: "folder-symbolic",
-        filter: Categories(
-            categories: [
-                "Office",
-            ],
-            exclude: [
-                "org.wezfurlong.wezterm",
-                "com.system76.CosmicScreenshot",
-                "betterdiscord-installer",
-                "snap-store_snap-store",
-            ],
-            include: [
-                "org.gnome.Totem",
-                "org.gnome.eog",
-                "simple-scan",
-                "thunderbird",
-            ],
-        ),
-    ),
-    (
-        name: "System",
+        name: "Office",
         icon: "folder-symbolic",
         filter: AppIds([
-            "com.system76.CosmicStore",
-            "com.system76.CosmicSettings",
-            "com.system76.CosmicFiles",
-            "com.system76.CosmicScreenshot",
-            "betterdiscord-installer",
-            "snap-store_snap-store",
-            "org.fedoraproject.MediaWriter",
+            "startcenter",
+            "base",
+            "calc",
+            "draw",
+            "impress",
+            "math",
+            "writer",
         ]),
     ),
 ]
